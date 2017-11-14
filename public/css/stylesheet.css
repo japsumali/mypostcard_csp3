@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    -webkit-text-size-adjust:100%;
+    font-family: 'Lato', sans-serif;
+}
+
+
+body, html {
+    background-image: url("../img/worldmap5.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.panel-default {
+	background-color:rgba(255, 255, 255, 0.2);
+	margin-top: 30%;
+	border: 1px solid transparent;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.9);
+}
+
+/* ******** social media footer ******** */
+
+.socialwrapper {
+  text-align: center;
+  margin-top: 50px;
+}
+
+i {
+  padding: 0px 10px;
+}
+
+.socialwrapper i:nth-child(1) {
+  color: #333333;
+  cursor: pointer;
+  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+  transition: all ease-in-out 150ms;
+  height: 10px;
+}
+
+.socialwrapper i:nth-child(1):hover {
+  margin-top: -10px;
+  text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+  transform: translate(0, -8);
+}
+
+.socialwrapper i:nth-child(2) {
+  color: #333333;
+  cursor: pointer;
+  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+  transition: all ease-in-out 150ms;
+}
+
+.socialwrapper i:nth-child(2):hover {
+  margin-top: -10px;
+  text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+  transform: translate(0, -8);
+}
+
+.socialwrapper i:nth-child(3) {
+  color: #333333;
+  cursor: pointer;
+  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  transition: all ease-in-out 150ms;
+}
+
+.socialwrapper i:nth-child(3):hover {
+  margin-top: -10px;
+  text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+  transform: translate(0, -5);
+}
+
+/* ******** social media footer END ******** */
+
+/* ******** dashboard gallery ******** */
+
+#gallery
+{
+    display: inline-block;
+    margin-top: 100px;
+}
+
+/* ******** dashboard gallery END ******** */
+
+/* ******** pagination links ******** */
+
+/* ******** pagination links END ******** */
+
+/* ******** textarea comment section ******** */
+#description {
+  background-color: transparent;
+  border-radius: 10px;
+  resize: none;
+  height: 25px;
+  width: 350px;
+  overflow: hidden;
+  padding-top: 3.5px;
+  padding-bottom: 0;
+}
+/* ******** textarea comment section END ******** */
+
+.commentgradient {
+  background: #3E5151;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+table th {
+  text-align: center;
+}
+
+

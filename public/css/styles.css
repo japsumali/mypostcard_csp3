@@ -1,0 +1,423 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    -webkit-text-size-adjust:100%;
+}
+/*navbar*/
+.navbar-header {
+	margin-top: -8px;
+    font-family: 'Nothing You Could Do', cursive;
+}
+/*navbar-end*/
+
+/*header1*/
+#header1 * {
+	color: #444;
+    text-align: right;
+    margin-top: 100px;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 50px;
+    font-weight: bold;
+}
+#header1 h5 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #666;
+    font-family: 'Dancing Script', cursive;
+}
+/*header1-end*/
+
+/*header2*/
+.no-pad * {
+    margin-left: 0;
+    padding-left: 0;
+}
+#header2 {
+    background-color: white;
+    text-align: center;
+}
+#header21 * {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Caveat', cursive;
+    font-size: 35px;
+    color: #444;
+}
+#header21 p {
+    font-size: 1.5vw;
+    margin-top: 30px;
+    font-family: 'Caveat', cursive;
+    color: #555;
+    text-align: justify-all;
+    font-size: 15px;
+    color: #666;
+}
+/*header2-end*/
+
+/*header3*/
+.header3 {
+    background-color: white;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+#why {
+    font-family: 'Caveat', cursive;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 120px;
+    color: #444;
+}
+#handmade {
+    border-radius: 50%;
+    width: 50%;
+    margin-top: -50px;
+    margin-bottom: 40px;
+}
+#box label {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #444;
+}
+#box p {
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #666;
+}
+
+#local {
+    border-radius: 50%;
+    width: 50%;
+    margin-top: -50px;
+    margin-bottom: 40px;
+}
+#healthy {
+    border-radius: 50%;
+    width: 50%;
+    margin-top: -50px;
+    margin-bottom: 40px;
+}
+
+#box {
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+}
+
+#box2 {
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+}
+#box2 label {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #444;
+}
+#box2 p {
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #666;
+}
+/*header3-end*/
+
+/*gluttenfree*/
+#gluttenfreeline {
+    background-color: #ebf0f3;
+}
+.col-lg-6 {
+    padding-left: 0;
+}
+#gluttenfree {
+    width: 100%;
+}
+
+.description h3 {
+    margin-top: 80px;
+    color: #444;
+}
+
+.description p {
+    margin-top: 50px;
+    color: #666;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+.colour {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*gluttenfree-end*/
+
+/*organic*/
+.organic {
+    width: 30%;
+    margin-right: 0;
+}
+
+.organic2 {
+    background-color: #fdc6dd;
+}
+/*organic-end*/
+
+/*eco*/
+.eco {
+    background-color: #e7fcf5;
+}
+
+#eco {
+    width: 90%;
+}
+/*eco-end*/
+
+/*footer*/
+.fa {
+    margin: 10px;
+    margin-bottom: 30px;
+}
+footer {
+    margin-top: 30px;
+    font-family: 'Lato', sans-serif;
+    color: #666;
+    text-align: center;
+}
+/*footer-end*/
+
+
+/*media query*/
+
+/*iphone */
+@media only screen and (max-width: 60em) {
+    .navbar * {
+        font-size: 3vw;
+    }
+
+	#header1 * {
+        text-align: right;
+		font-size: 3.5vw;
+		margin-top: 30px;
+        margin-bottom: 5px;
+	}
+
+    #header1 h5 {
+        font-size: 2.1vw;
+        margin-top: 0;
+    }
+
+    #header21 *     {
+        margin: 0;
+        font-size: 4.5vw;
+        margin-top: 20px;
+    }
+
+    #header21 p {
+        margin: 0;
+        margin-top: 5px;
+        font-size: 1.5vw;
+    }
+
+    #why {
+        font-size: 4.5vw;
+        margin: 0;
+        margin-bottom: 40px;
+        margin-top: 30px;
+    }
+
+    #handmade {
+        border-radius: 50%;
+        width: 40%;
+        margin-top: -25px;
+        margin-bottom: 20px;
+    }
+    #box label {
+        font-size: 4vw;
+        margin-bottom: 15px;
+    }
+    #box p {
+        font-size: 3vw;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #box {
+        border: 1px solid black;
+        height: 200px;
+        width: 150px;
+        margin-bottom: 30px;
+    }
+    #local {
+        border-radius: 50%;
+        width: 40%;
+        margin-top: -25px;
+        margin-bottom: 20px;
+    }
+    #box2 label {
+        font-size: 4vw;
+        margin-bottom: 15px;
+    }
+    #box2 p {
+        font-size: 3vw;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #box2 {
+        border: 1px solid black;
+        height: 200px;
+        width: 150px;
+        margin-bottom: 30px;
+    }
+    #healthy {
+        border-radius: 50%;
+        width: 40%;
+        margin-top: -25px;
+        margin-bottom: 20px;
+    }
+    .description h3 {
+        margin-top: 15px;
+        margin-bottom: 5px;
+        color: #444;
+        font-size: 4vw;
+    }
+
+    .description p {
+        margin-top: 0;
+        color: #666;
+        font-size: 1.5vw;
+    }
+
+    .our {
+        font-size: 5vw;
+    }
+
+    footer * {
+        font-size: 2vw;
+        color: #666;
+        text-align: center;
+    }
+}
+/*iphone-end*/
+
+/*ipad*/
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+     #header1 * {
+        font-size: 2.5vw;
+        margin-top: 120px;
+    }
+
+    #header1 h5 {
+        margin-top: 0;
+        font-size: 1.8vw;
+    }
+
+    #header21 {
+        margin-top: -50px;
+    }
+
+    .our {
+        font-size: 3.8vw;
+    }
+
+    .description p {
+        margin-top: 0;
+ }
+
+    #box2 {
+        margin-bottom: 40px;
+    }
+}
+
+/*login*/
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
+
+
+.well{
+    background-color:#fff!important;
+    border-radius:0!important;
+    border:black solid 1px;
+}
+
+.well.login-box {*/
+    /*width:400px; */
+/*    border:#d1d1d1 solid 1px;
+    margin:0 auto;
+    margin-top:30px;
+}
+.well.login-box legend {
+  font-size:26px;
+  text-align:center;
+  font-weight:300;
+}
+.well.login-box label {
+  font-weight:300;
+  font-size:13px;
+  
+}
+.well.login-box input[type="text"] {
+  box-shadow:none;
+  border-color:#ddd;
+  border-radius:0;
+}
+
+.well.welcome-text{
+    font-size:21px;
+}*/
+
+/* Notifications */
+
+/*.notification{
+    position:fixed;
+    top: 20px;
+    right:0;
+    background-color:#FF4136;
+    padding: 20px;
+    color: #fff;
+    font-size:21px;
+    display:none;
+}
+.notification-success{
+  background-color:#3D9970;
+}
+
+.notification-show{
+    display:block!important;
+}
+*/
+/*Loged in*/
+/*.btn-default {
+    color: #333;
+    background-color: #f9f9f9;
+    border-color: #ccc;
+    border: 1px solid;
+    text-align: center;
+    cursor: pointer;
+    color: #5e5e5e;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fefefe), color-stop(100%, #f9f9f9)), #f9f9f9;
+    background: -moz-linear-gradient(#fefefe, #f9f9f9), #f9f9f9;
+    background: -webkit-linear-gradient(#fefefe, #f9f9f9), #f9f9f9;
+    background: linear-gradient(#fefefe, #f9f9f9), #f9f9f9;
+    border-color: #c3c3c3 #c3c3c3 #bebebe;
+    -moz-box-shadow: rgba(0, 0, 0, 0.06) 0 1px 0, rgba(255, 255, 255, 0.1) 0 1px 0 0 inset;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.06) 0 1px 0, rgba(255, 255, 255, 0.1) 0 1px 0 0 inset;
+    box-shadow: rgba(0, 0, 0, 0.06) 0 1px 0, rgba(255, 255, 255, 0.1) 0 1px 0 0 inset;
+
+*/
+
+
+
+
+
+
+
